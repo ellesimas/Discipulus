@@ -24,7 +24,7 @@ Neste tutorial encontrá:
 #. Comando de articulação pythonanywhere e github
   * :git clone "url projeto": clona projeto do github
   * :git status: informa situação do repositório vigente (se existente)
-  * :git commit -am 'mensagem': Atualiza as informações no projeto github
+  * :git commit -am "mensagem": Atualiza as informações no projeto github
   * :git push: Envia conteúdo da IDE para o gestor
   * :git pull: Upa conteúdo do gestor para a IDE
 
