@@ -30,6 +30,9 @@ Neste tutorial encontrá:
 #. Processo de criação de uma WebPage inicial
   * :Frameworks:
   * :Framework Bottle:
+#. Instalação e uso do sphinx
+  * :pip install sphinx: instala o sphinx
+  * :sphinx-quickstart:
 
 Classes neste módulo
 ---------------------
