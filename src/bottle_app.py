@@ -1,14 +1,10 @@
-
-# A very simple Bottle Hello World app for you to get started with...
+# -*- coding: utf-8 -*-
 from bottle import default_app, route
 
 @route('/')
 def hello_world():
-    return 'Hello from Bottle!'
+    return 'Tutorial Discipulus: Introdução aplicativo web'
 
-@route('/versao')
-def hello_world():
-    return main.py
 
 
 application = default_app()
