@@ -59,13 +59,21 @@ def rota_doc(filename):
        Atenção que o doc da chamada deve ser o root não a pasta.
     """
     return static_file(filename, root='/home/ellesimas/dev/Discipulus/docs/build/html', mimetype='text/html')
-'''O bottle consegue servir arquivos estáticos.
-   static_file(filename, root='/path/to/image/files', mimetype='image/png')
-   expressão anterior
-   static_file(filename, root='/home/ellesimas/dev/Discipulus/docs/build/html', mimetype='text/html')
-   expressão que permitiu uma visualização primitiva da documentação. Esta vsualização simples tem
-   justificativa na ausência do roteamento do css
-'''
+
+    '''O bottle consegue servir arquivos estáticos.
+       static_file(filename, root='/path/to/image/files', mimetype='image/png')
+       expressão anterior
+       static_file(filename, root='/home/ellesimas/dev/Discipulus/docs/build/html', mimetype='text/html')
+       expressão que permitiu uma visualização primitiva da documentação. Esta vsualização simples tem
+       justificativa na ausência do roteamento do css que se encontra no caminho
+       ../docs/build/html/_static
+    '''
+
+@route('/doc/<filename:re:.*\.css>')
+def rota_css_doc(filename):
+    """Roteia o caminho /vs para a page html gerada pelo sphinx, chamando css
+    """
+    return static_file(filename, root='/home/ellesimas/dev/Discipulus/docs/build/html/', mimetype='text/css')
 
 application = default_app()
 

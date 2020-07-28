@@ -35,7 +35,14 @@ release = '20.1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
 ]
+
+#'sphinx.ext.autodoc': Inclui documentação de docstring
+#'sphinx.ext.viewcode': Adiciiona link ao codigo-fonte destacado
+#'sphinx.ext.githubpages': Vincula ao github
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
