@@ -10,7 +10,17 @@ Welcome to Tutorial Discipulu's's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. automodule:: main
+    :members:
+    :undoc-members:
+    :platform: Web
+    :synopsis: Gera versão.
 
+.. automodule:: bottle_app
+    :members:
+    :undoc-members:
+    :platform: Web
+    :synopsis: Gerenciador de Rotas HTTP.
 
 Indices and tables
 ==================
