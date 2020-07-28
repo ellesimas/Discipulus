@@ -10,9 +10,13 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../../src'))
+#Antes comentadas por default, as três linhas acima 'abertas'
+#e a terceira linha teve o caminho de path alterado para o código fonte
+#do sistema:
+#sys.path.insert(0, os.path.abspath('<caminho/para/o/codigo/fonte'))
 
 
 # -- Project information -----------------------------------------------------
@@ -47,7 +51,9 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'default'
+#Você pode encontrar outros temas no site:
+#<https://www.sphinx-doc.org/en/master/usage/theming.html>
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
