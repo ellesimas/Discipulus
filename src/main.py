@@ -51,13 +51,21 @@ class Main():
 
     """
 
-    def __init__(self, versao):
+    def __init__(self, versao = "20.1.0"):
         """Printa a versão da classe dez vezes
+
+           :param versao: Torna-se default, um atributo da classe Main.
         """
+        self.versao = versao
+        #for i in range(10):
+            #print("Classe exemplo. Versão {}".format(versao))
 
-        for i in range(10):
-            print("Classe exemplo. Versão {}".format(versao))
+    def pega_versao(self):
+        '''Retorna a versao do sistema
 
+           :return: A versao do sistema
+        '''
+        return self.versao
 
 if __name__=="__main__":
-    Main(1.0)
+    print(Main().pega_versao())
