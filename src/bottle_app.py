@@ -62,7 +62,9 @@ def rota_doc(filename):
 '''O bottle consegue servir arquivos estáticos.
    static_file(filename, root='/path/to/image/files', mimetype='image/png')
    expressão anterior
-
+   static_file(filename, root='/home/ellesimas/dev/Discipulus/docs/build/html', mimetype='text/html')
+   expressão que permitiu uma visualização primitiva da documentação. Esta vsualização simples tem
+   justificativa na ausência do roteamento do css
 '''
 
 application = default_app()
