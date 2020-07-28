@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-;
+# -*- coding: utf-8 -*-
 # Discipulus.main.py
 
 '''
@@ -19,7 +19,7 @@ Me encontre em `ellesimas`_.
 Neste tutorial encontrá:
 ------------------------
 
-#. Enconding utf 8
+#. Uso Enconding utf 8
 #. Comandos básicos no terminal linux
 #. Comando de articulação pythonanywhere e github
   * :git clone "url projeto": clona projeto do github
@@ -31,21 +31,31 @@ Neste tutorial encontrá:
 
 Classes neste módulo
 ---------------------
+     :py:class: 'Main' Exemplo de classe qualquer
 
+Changelog
+---------
+
+.. versionadded:: 20.1.0
+        Documentação do tutorial
 
 '''
 
-class main():
-    ''' Classe exemplo
+class Main():
+    """ Classe exemplo
 
-       :param self: Chama ele mesmo
-    '''
+       :param self: Chama ele mesmo.
+       :param versao: Retorna a versao colocada.
 
-    j = 300
+    """
 
-    def __init__(self):
+    def __init__(self, versao):
+        """Printa a versão da classe dez vezes
+        """
+
         for i in range(10):
-            print(i)
+            print("Classe exemplo. Versão {}".format(versao))
+
 
 if __name__=="__main__":
-    main()
+    Main(1.0)
