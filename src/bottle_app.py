@@ -16,7 +16,10 @@ Me encontre em `ellesimas`_.
 
 Neste modulo encontrará:
 ------------------------
-   As rotas que direcionam para outras abas da web.
+
+.. versionadded::      20.1.0
+   As rotas que direcionam para outras abas da web. 
+   Responsabilidade do gerenciador de chamadas http.
    Utilizei o Framework Bottle que tem sua documentação
    wncontrável em <https://wiki.python.org/moin/Routing>
     
