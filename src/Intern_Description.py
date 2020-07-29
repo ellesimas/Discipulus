@@ -44,6 +44,11 @@ Erros
   * :*** No rule to make target 'html'.  Stop.: Dirija-se ao diretório que apresente o 'makefile'.
   * :sphinx.errors.SphinxError: master file /home/../contents.rst not found: master_doc = 'index' no conf.py.
 
+Importação de diretórios internos
+----------------------------------
+#. Arquivos importados para o diretório externo ao repositório vigente não aparece na documentação.
+#. Faz-se necessário IMPORTAR as dependências!
+
 Instalação E Uso Do Sphinx
 ------------------------------
 
