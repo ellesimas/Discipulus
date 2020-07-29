@@ -22,9 +22,9 @@ from main import Main
 
 @route('/')
 def rota_padrao():
-    '''Roteia a página principal.
+    '''Serve ao index.html que serve ao brython que rodará o vitollino no delta.py
     '''
-    return 'Tutorial Discipulus: Introdução aplicativo web'
+    return static_file('index.html', root='/home/ellesimas/dev/Discipulus/src/', mimetype='text/html')
 
 @route('/next')
 def rota_dois():
@@ -62,6 +62,11 @@ def rota_doc(filename):
        justificativa na ausência do roteamento do css que se encontra no caminho
        ../docs/build/html/_static
     '''
+@route('/<filename:re:.*\.py>')
+def py_rota(filename):
+    """Roteia
+    """
+    return static_file(filename, root='/home/ellesimas/dev/Discipulus/src', mimetype='text/python')
 
 @route('/doc/<filename:re:.*\.css>')
 def rota_css_doc(filename):
