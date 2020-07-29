@@ -14,6 +14,7 @@ Comandos básicos no terminal linux
 
   * :cat {opção} |arquivo|: {>}criar, [cat _.extens]visualizar,[CTRL+D]sair_editor.
   * :cd: Alterna para diretório. {cd -]dir ant., [cd ca/mi/nho] último dir.
+  * :cp ../caminho/vigente . : Copia arquivo para a pasta/diretório vigente
   * :-f: Força ação do console.
   * :ls: Mostra todos os arquivos visíveis e diretórios internos ao vigente.
   * :ls -a: Mostra, além dos arquivos visíveis, os ocultos.
@@ -22,10 +23,11 @@ Comandos básicos no terminal linux
   * :python |arquivo|: Roda o script no console.
   * :rm |arquivo|: Deleta arquivo.
   * :rmdir |diretório|: Deleta diretório vazio.
-  * :-r: Ação recursiva.
+  * :-r: Ação recursiva. Ação de árvore toda
   * :sphinx-quickstart: Gera arquivos pertinentes à ação python.
   * :touch: Cria novo arquivo. Necessita extensão.
   * :vi |arquivo|: Mostra o que gerará a documentação. Para sair :wq:.
+  * :mv <caminho/raiz> <des/ti/no>: move arquivo para outro diretório
 
 Comando de articulação pythonanywhere e github
 --------------------------------------------------
@@ -65,7 +67,7 @@ Operações Python
 ---------------------
   * :Format():
 
-Organização Dos Diretórios
+Organização Dos Diretórios 
 ------------------------------
 
   * :dev: Diretório principal de desenvolvimento;
@@ -74,6 +76,12 @@ Organização Dos Diretórios
   * :docs/source/conf.py: É onde estarão as principais diretrizes de organização do documento;
   * :docs/source/index.rst: Contém a raiz da árvore de índice ou toctree;
 
+Organização Dos Arquivos 
+------------------------------
+  * :index:Geralmente é uma página principal
+  * :html: Serve as informações antes compostas de python
+  * :index.html:
+  
 WEB
 -------
  *  :html| mimetype|: O MIME type é o mecanismo para dizer ao cliente a variedade de documentos transmitidos. Sintaxe - Tipo/subtipo
