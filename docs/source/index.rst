@@ -7,14 +7,20 @@ Welcome to Tutorial Discipulu's documentation!
 ================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 10
    :caption: Contents:
+
+Módulo Main
+------------
 
 .. automodule:: main
     :members:
     :undoc-members:
     :platform: Web
     :synopsis: Gera versão.
+
+Módulo Bottle_app: Gerenciador HTTP
+------------------------------------
 
 .. automodule:: bottle_app
     :members:

@@ -28,6 +28,8 @@ author = 'Emanuelle Simas'
 # The full version, including alpha/beta/rc tags
 release = '20.1.0'
 
+#Especifica o mestre. Tentativa primeira de solução de erro no rdd
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
@@ -66,3 +68,5 @@ html_theme = 'default'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+#Especifica o mestre. Tentativa primeira de solução de erro no rdd
+master_doc = 'index'
