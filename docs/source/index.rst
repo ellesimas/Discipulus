@@ -6,6 +6,14 @@
 Welcome to Tutorial Discipulu's documentation!
 ================================================
 
+:Author: Emanuelle Simas <ellesimas@gmail.com>
+
+
+:Git Hub: `ellesimas`_.
+
+.. _ellesimas: https://github.com/ellesimas/
+
+
 
 Módulo Main
 ------------

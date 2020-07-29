@@ -2,15 +2,10 @@
 # Discipulus.main.py
 
 '''
+.. sectionauthor:: Emanuelle Simas <ellesimas@gmail.com>
 
-..codeauthor:: Emanuelle Simas
-
-Git Hub: `ellesimas`_.
-
-.. _ellesimas: https://github.com/ellesimas/
-
-
-..version:: 20.1.0
+.. versionadded:: 20.1.0
+   Versão inicial.
 
 .. note::
 
