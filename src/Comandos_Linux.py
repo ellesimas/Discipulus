@@ -60,4 +60,4 @@ Especificações
 --------------_
 #. :inicio_requerido + *: "*" é completado por qualquer informação que COMECE por nome_requerido;
 
-''
+'''
