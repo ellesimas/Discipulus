@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 # SPDX License Indentifier : GPL 3.8-or-later
-
 '''
-
-Módulo Bottle_app:
-------------------------
 *As rotas que direcionam para outras abas da web,
     através do gerenciador de de http.
 *Framework Bottle utilizado. Documentação em <https://wiki.python.org/moin/Routing>

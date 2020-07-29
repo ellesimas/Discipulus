@@ -24,17 +24,9 @@ Neste tutorial encontrá:
 #. Uso Enconding utf 8
 #. Comandos básicos no terminal linux
 #. Comando de articulação pythonanywhere e github
-  * :git clone "url projeto": clona projeto do github;
-  * :git status: informa situação do repositório vigente (se existente);
-  * :git commit -am "mensagem": Atualiza as informações no projeto github;
-  * :git push: Envia conteúdo da IDE para o gestor;
-  * :git pull: Upa conteúdo do gestor para a IDE;
 #. Processo de criação de uma WebPage inicial
-  * :Frameworks:
-  * :Framework Bottle:
 #. Instalação e uso do sphinx
-  * :pip install sphinx: instala o sphinx;
-  * :sphinx-quickstart: Starta a construção da documentação;
+
 
 Classes neste módulo:
 ---------------------
