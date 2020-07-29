@@ -80,10 +80,32 @@ Organização Dos Arquivos
 ------------------------------
   * :index:Geralmente é uma página principal
   * :html: Serve as informações antes compostas de python
-  * :index.html:
+  * :index.html: 
   
 WEB
 -------
  *  :html| mimetype|: O MIME type é o mecanismo para dizer ao cliente a variedade de documentos transmitidos. Sintaxe - Tipo/subtipo
+ 
+HTML 
+------
+* :index.html: Documento principal que servirá os documentos importados. Necessário fazer para cada nova sala?
+* :head: Instruções preliminares para antes de implementar o html
+* :body: 
+* :<script type="text/python">: Diz que a partir desta linha o que está escrito é python
+CSS
+------
+* :viewport: Auxilia css a redimensionar a tela quando janela for maximizada ou minimizada
+  * :content="width=device-width, initial-scale=1": Repassa para o ccs a largura do dispositivo para poder ajustar o Layout 
+  
+BRYTHON
+----------
+* :Brython: É o interpretador python escrito em javascript. É um compilador que permite rodar o python dentro do browser.
+* :cdn: É um endereço que permite pegar um objeto do servidor mais próximo à minha localização.
+* <body onload="brython()">: Carregador visual
+
+VITOLLINO
+----------
+* :<div id="pydiv"></div>: O vitollino procura no corpo de html cujo id seja pydiv, colocando todos os componentes do vitollino.
+* :div: É um container do html. Uma caixinha.
 
 '''
