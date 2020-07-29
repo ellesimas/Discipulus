@@ -1,3 +1,4 @@
+'''
 :~___/__/__$: Intrui sobre onde você está no bash.
 :pwd: Indica em qual repositório o usuário está. 
 :hostname: apresenta o nome do host local.
@@ -58,3 +59,5 @@ Movientação
 Especificações
 --------------_
 #. :inicio_requerido + *: "*" é completado por qualquer informação que COMECE por nome_requerido;
+
+''
