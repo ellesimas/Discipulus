@@ -2,19 +2,21 @@
 # Discipulus.main.py
 
 '''
-=============================
-Tutorial Inicial Discipulu's
-=============================
 
 ..codeauthor:: Emanuelle Simas
 
-Me encontre em `ellesimas`_.
+Git Hub: `ellesimas`_.
 
 .. _ellesimas: https://github.com/ellesimas/
 
 
-..version:: 1.0
+..version:: 20.1.0
 
+Este documento faz parte do método de Ensino da programação e desenvolvimento
+orientando pelo Doutor e Professor Carlo Emmanoel Tolla de Oliveira.
+Git Hub: `CarloTolla`_.
+
+.. _CarloTolla: https://github.com/carlotolla
 
 Neste tutorial encontrá:
 ------------------------
@@ -22,19 +24,19 @@ Neste tutorial encontrá:
 #. Uso Enconding utf 8
 #. Comandos básicos no terminal linux
 #. Comando de articulação pythonanywhere e github
-  * :git clone "url projeto": clona projeto do github
-  * :git status: informa situação do repositório vigente (se existente)
-  * :git commit -am "mensagem": Atualiza as informações no projeto github
-  * :git push: Envia conteúdo da IDE para o gestor
-  * :git pull: Upa conteúdo do gestor para a IDE
+  * :git clone "url projeto": clona projeto do github;
+  * :git status: informa situação do repositório vigente (se existente);
+  * :git commit -am "mensagem": Atualiza as informações no projeto github;
+  * :git push: Envia conteúdo da IDE para o gestor;
+  * :git pull: Upa conteúdo do gestor para a IDE;
 #. Processo de criação de uma WebPage inicial
   * :Frameworks:
   * :Framework Bottle:
 #. Instalação e uso do sphinx
-  * :pip install sphinx: instala o sphinx
-  * :sphinx-quickstart:
+  * :pip install sphinx: instala o sphinx;
+  * :sphinx-quickstart: Starta a construção da documentação;
 
-Classes neste módulo
+Classes neste módulo:
 ---------------------
      :py:class: 'Main' Exemplo de classe qualquer
 
@@ -50,7 +52,7 @@ class Main():
     """ Classe exemplo
 
        :param self: Chama ele mesmo.
-       :param versao: Retorna a versao colocada.
+       :param versao: Retorna a versão colocada.
 
     """
 
@@ -64,8 +66,7 @@ class Main():
             #print("Classe exemplo. Versão {}".format(versao))
 
     def pega_versao(self):
-        '''Retorna a versao do sistema
-
+        '''
            :return: A versao do sistema
         '''
         return self.versao

@@ -2,23 +2,14 @@
 # SPDX License Indentifier : GPL 3.8-or-later
 
 '''
-==============================
-Tutorial Inicial Discipulu's
-==============================
 
-..codeauthor:: Emanuelle Simas <ellesimas@gmail.com>
-
-..version:: 1.0
-
-
-Neste modulo encontrará:
+Módulo Bottle_app:
 ------------------------
-
+*As rotas que direcionam para outras abas da web,
+    através do gerenciador de de http.
+*Framework Bottle utilizado. Documentação em <https://wiki.python.org/moin/Routing>
 .. versionadded::      20.1.0
-   As rotas que direcionam para outras abas da web.
-   Responsabilidade do gerenciador de chamadas http.
-   Utilizei o Framework Bottle que tem sua documentação
-   encontrável em <https://wiki.python.org/moin/Routing>
+
 
 '''
 
@@ -35,15 +26,22 @@ from main import Main
 
 @route('/')
 def rota_padrao():
+    '''Roteia a página principal.
+    '''
     return 'Tutorial Discipulus: Introdução aplicativo web'
 
 @route('/next')
 def rota_dois():
+    '''Exemplo da geração de uma segunda rota qualquer.
+    '''
     return 'Bem-vindo à segunda rota'
 
 @route('/versao')
 def rota_credits():
-    """Roteia o caminho /vs para retornar a versão do sistema."""
+    """Roteia o caminho para retornar a versão do sistema.
+       O módulo chamado é o main com sua classe Main importado
+       linhas acima.
+    """
     return 'Tutorial Discipulus - Versão do sistema: {}'.format(Main().pega_versao())
 
 
