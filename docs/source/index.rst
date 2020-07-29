@@ -6,9 +6,6 @@
 Welcome to Tutorial Discipulu's documentation!
 ================================================
 
-.. toctree::
-   :maxdepth: 10
-   :caption: Contents:
 
 Módulo Main
 ------------
@@ -28,9 +25,16 @@ Módulo Bottle_app: Gerenciador HTTP
     :platform: Web
     :synopsis: Gerenciador de Rotas HTTP.
 
-Indices and tables
-==================
+**Documentação Adicional**
+---------------------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Note::
+
+     Os documentos abaixo não relatam itens que alteram os módulos supracitados.
+
+.. toctree::
+    :maxdepth: 2
+
+    relatable.rst
+    comandos_linux.rst
+

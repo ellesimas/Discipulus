@@ -28,8 +28,6 @@ author = 'Emanuelle Simas'
 # The full version, including alpha/beta/rc tags
 release = '20.1.0'
 
-#Especifica o mestre. Tentativa primeira de solução de erro no rdd
-master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 

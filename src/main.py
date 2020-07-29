@@ -12,9 +12,11 @@ Git Hub: `ellesimas`_.
 
 ..version:: 20.1.0
 
-Este documento faz parte do método de Ensino da programação e desenvolvimento
-orientando pelo Doutor e Professor Carlo Emmanoel Tolla de Oliveira.
-Git Hub: `CarloTolla`_.
+.. note::
+
+    Este documento faz parte do método de Ensino da programação e desenvolvimento
+    orientando pelo Doutor e Professor Carlo Emmanoel Tolla de Oliveira.
+    Git Hub: `CarloTolla`_.
 
 .. _CarloTolla: https://github.com/carlotolla
 
