@@ -8,7 +8,7 @@ Introdução ao Shell
 * :man <comando>: é o manual de comandos. 'q' exita.
 
 
-COMANDO MUDANÇA DE DIRETÓRIO
+Mudança de Diretório
 -----------------------------
 #. :cd /nome_do_diretório: direciona para o diretório requerido;
 #. :cd ~: volta para o diretório raiz;
