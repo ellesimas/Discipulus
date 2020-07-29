@@ -15,4 +15,4 @@
     :members:
     :undoc-members:
     :platform: Web
-    :synopsis: Listagem de Comando Python.
+    :synopsis: Listagem de Comandos para o SHELL do Linux.
