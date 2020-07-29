@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # SPDX License Indentifier : GPL 3.8-or-later
 '''
-*As rotas que direcionam para outras abas da web,
+* As rotas que direcionam para outras abas da web,
     através do gerenciador de de http.
-*Framework Bottle utilizado. Documentação em <https://wiki.python.org/moin/Routing>
+* Framework Bottle utilizado. Documentação em <https://wiki.python.org/moin/Routing>
 .. versionadded::      20.1.0
 
 
