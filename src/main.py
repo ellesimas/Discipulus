@@ -2,7 +2,7 @@
 # Discipulus.main.py
 
 '''
-.. sectionauthor:: Emanuelle Simas <ellesimas@gmail.com>
+.. codeauthor:: Emanuelle Simas <ellesimas@gmail.com>
 
 .. versionadded:: 20.1.0
    Versão inicial.
@@ -23,17 +23,22 @@ Neste tutorial encontrá:
 #. Comando de articulação pythonanywhere e github
 #. Processo de criação de uma WebPage inicial
 #. Instalação e uso do sphinx
+#. Implementação da documentação no read the docs
+#. Importação de itens externos
 
 
 Classes neste módulo:
 ---------------------
-     :py:class: 'Main' Exemplo de classe qualquer
+    :py:class: 'Main' Exemplo de classe qualquer
 
 Changelog
 ---------
 
 .. versionadded:: 20.1.0
         Documentação do tutorial
+
+.. versionadded::    20.1.1
+        Chama game criado externamente
 
 '''
 
