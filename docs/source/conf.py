@@ -38,6 +38,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.doctest',
 ]
 
 #'sphinx.ext.autodoc': Inclui documentação de docstring
