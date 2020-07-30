@@ -18,7 +18,7 @@ Changelog
 
 """
 from vitollino.main import Cena, Elemento, STYLE
-from delta.hotel import Game
+#from delta.hotel import Game
 
 
 TELA_INICIAL = "https://i.pinimg.com/originals/ff/7c/78/ff7c780990c7f867de2061645d9eff86.gif"
@@ -33,7 +33,6 @@ class start:
     ''' Gera uma classe onde há a tela de partida do jogo da memória.
 
     '''
-
     def __init__(self):
         '''Cria os Elementos principais que aparecerão na tela e seus lugares.
 
@@ -48,17 +47,13 @@ class start:
 
         '''
 
-        self.solucao.elt.bind("click", self.chama)
+        #self.solucao.elt.bind("click", self.chama)
 
     def vai(self):
         self.inicio.vai()
 
-    def chama(self, event = None):
-        Game().vai()
-
-class end:
-    pass
-
+    #def chama(self, event = None):
+        #Game().vai()
 
 if __name__=="__main__":
     start().vai()

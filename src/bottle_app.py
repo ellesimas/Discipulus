@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # SPDX License Indentifier : GPL 3.8-or-later
 '''
+
 * As rotas que direcionam para outras abas da web,
     através do gerenciador de de http.
 * Framework Bottle utilizado. Documentação em <https://wiki.python.org/moin/Routing>
-.. versionadded::      20.1.0
 
+.. versionadded::      20.1.0
 
 '''
 
@@ -21,7 +22,7 @@ from main import Main
 '''
 
 @route('/')
-def rota_padrao():
+def rota_game():
     '''Serve ao index.html que serve ao brython que rodará o vitollino no delta.py
     '''
     return static_file('index.html', root='/home/ellesimas/dev/Discipulus/src/', mimetype='text/html')
@@ -46,7 +47,7 @@ def rota_credits():
    .* diz para importar tudo que termine com html.
    leia roteie qualquer coisa que tenha doc na frente
 """
-@route('/doc/<filename:re:.*\.html>')
+@route('/doc/<filename:re:.*[.]html>')
 def rota_doc(filename):
     """Roteia o caminho /vs para a page html gerada pelo sphinx.
        Na web <domínio.com/doc/filename/html>
@@ -68,7 +69,7 @@ def py_rota(filename):
     """
     return static_file(filename, root='/home/ellesimas/dev/Discipulus/src', mimetype='text/python')
 
-@route('/doc/<filename:re:.*\.css>')
+@route('/doc/<filename:re:.*[.]css>')
 def rota_css_doc(filename):
     """Roteia o caminho /vs para a page html gerada pelo sphinx, chamando css
     """

@@ -33,6 +33,18 @@ Módulo Bottle_app: Gerenciador HTTP
     :platform: Web
     :synopsis: Gerenciador de Rotas HTTP.
 
+Módulo Delta
+------------------------------------
+
+.. note::
+   Jogo de memória é trazido do super python
+
+.. automodule:: delta
+    :members:
+    :undoc-members:
+    :platform: Web
+    :synopsis: Jogo da Memória
+
 **Documentação Adicional**
 ---------------------------
 
