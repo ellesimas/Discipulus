@@ -48,7 +48,7 @@ Erros
   * :uncaught delta error 5218: Com certeza é erro de sintaxe no módulo que está tentando importar! vá consertar!
   * :WARNING: autodoc: failed to import module 'delta'; the following exception was raised: Este erro corrobora com a impossibilidade do sphinx importa o que o módulo importa
   * :No module named 'browser': Ele procurou o módulo requerido e não o encontrou. Uma solução é gerar um pythom mínimo dentre a sua documentação. Importe, copie ou mova o mockbrythom para o seu diretório principal
-
+  * : WARNING: Unknown directive type "doctest": Doctest é uma extensão do sphinx requerida em uma das diretivas do vitollino. Logo, insira-o no conf.py
 Importação de diretórios internos
 ----------------------------------
 #. Arquivos importados para o diretório externo ao repositório vigente não aparece na documentação.
