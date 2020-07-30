@@ -46,7 +46,9 @@ Erros
   * :*** No rule to make target 'html'.  Stop.: Dirija-se ao diretório que apresente o 'makefile'.
   * :sphinx.errors.SphinxError: master file /home/../contents.rst not found: master_doc = 'index' no conf.py.
   * :brython.js:5218 Uncaught vitollino: Ao rodar o web page o vitollino não foi encontrado por ausênci do _init_. Gere um _init_ no src do seu repositório.
-  * :uncaught delta error 5218: Com certeza é erro de sintaxe! vá consertar!
+  * :uncaught delta error 5218: Com certeza é erro de sintaxe no módulo que está tentando importar! vá consertar!
+  * :WARNING: autodoc: failed to import module 'delta'; the following exception was raised: Este erro corrobora com a impossibilidade do sphinx importa o que o módulo importa
+  * :No module named 'browser': Ele procurou o módulo requerido e não o encontrou. Uma solução é gerar um pythom mínimo dentre a sua documentação. Importe, copie ou mova o mockbrythom para o seu diretório principal
 
 Importação de diretórios internos
 ----------------------------------
@@ -68,6 +70,10 @@ Instalação E Uso Do Sphinx
 Operações Python
 ---------------------
   * :Format():
+  
+ Bibliotecas adicionais Python
+ -----------------------------
+  * :mock: Unittest.mocké uma biblioteca para teste em Python. Ele permite que você substitua partes do seu sistema em teste por objetos simulados e faça afirmações sobre como elas foram usadas.
 
 Organização Dos Diretórios 
 ------------------------------
