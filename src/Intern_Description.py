@@ -45,6 +45,10 @@ Erros
   * :No module named 'bottle': O readthedocs não encontrou o requerimento bottle. Crie um através de um .txt!.
   * :*** No rule to make target 'html'.  Stop.: Dirija-se ao diretório que apresente o 'makefile'.
   * :sphinx.errors.SphinxError: master file /home/../contents.rst not found: master_doc = 'index' no conf.py.
+  * :brython.js:5218 Uncaught vitollino: Ao rodar o web page o vitollino não foi encontrado por ausênci do _init_. Gere um _init_ no src do seu repositório.
+  * :uncaught delta error 5218: Com certeza é erro de sintaxe no módulo que está tentando importar! vá consertar!
+  * :WARNING: autodoc: failed to import module 'delta'; the following exception was raised: Este erro corrobora com a impossibilidade do sphinx importa o que o módulo importa
+  * :No module named 'browser': Ele procurou o módulo requerido e não o encontrou. Uma solução é gerar um pythom mínimo dentre a sua documentação. Importe, copie ou mova o mockbrythom para o seu diretório principal
 
 Importação de diretórios internos
 ----------------------------------
@@ -66,6 +70,10 @@ Instalação E Uso Do Sphinx
 Operações Python
 ---------------------
   * :Format():
+  
+ Bibliotecas adicionais Python
+ -----------------------------
+  * :mock: Unittest.mocké uma biblioteca para teste em Python. Ele permite que você substitua partes do seu sistema em teste por objetos simulados e faça afirmações sobre como elas foram usadas.
 
 Organização Dos Diretórios 
 ------------------------------
@@ -80,10 +88,32 @@ Organização Dos Arquivos
 ------------------------------
   * :index:Geralmente é uma página principal
   * :html: Serve as informações antes compostas de python
-  * :index.html:
+  * :index.html: 
   
 WEB
 -------
  *  :html| mimetype|: O MIME type é o mecanismo para dizer ao cliente a variedade de documentos transmitidos. Sintaxe - Tipo/subtipo
+ 
+HTML 
+------
+* :index.html: Documento principal que servirá os documentos importados. Necessário fazer para cada nova sala?
+* :head: Instruções preliminares para antes de implementar o html
+* :body: 
+* :<script type="text/python">: Diz que a partir desta linha o que está escrito é python
+CSS
+------
+* :viewport: Auxilia css a redimensionar a tela quando janela for maximizada ou minimizada
+  * :content="width=device-width, initial-scale=1": Repassa para o ccs a largura do dispositivo para poder ajustar o Layout 
+  
+BRYTHON
+----------
+* :Brython: É o interpretador python escrito em javascript. É um compilador que permite rodar o python dentro do browser.
+* :cdn: É um endereço que permite pegar um objeto do servidor mais próximo à minha localização.
+* <body onload="brython()">: Carregador visual
+
+VITOLLINO
+----------
+* :<div id="pydiv"></div>: O vitollino procura no corpo de html cujo id seja pydiv, colocando todos os componentes do vitollino.
+* :div: É um container do html. Uma caixinha.
 
 '''
