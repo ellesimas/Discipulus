@@ -46,6 +46,7 @@ Erros
   * :*** No rule to make target 'html'.  Stop.: Dirija-se ao diretório que apresente o 'makefile'.
   * :sphinx.errors.SphinxError: master file /home/../contents.rst not found: master_doc = 'index' no conf.py.
   * :brython.js:5218 Uncaught vitollino: Ao rodar o web page o vitollino não foi encontrado por ausênci do _init_. Gere um _init_ no src do seu repositório.
+  * :uncaught delta error 5218: Com certeza é erro de sintaxe! vá consertar!
 
 Importação de diretórios internos
 ----------------------------------
