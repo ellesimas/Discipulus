@@ -73,7 +73,7 @@ Operações Python
  Bibliotecas adicionais Python
  -----------------------------
   * :mock: Unittest.mocké uma biblioteca para teste em Python. Ele permite que você substitua partes do seu sistema em teste por objetos simulados e faça afirmações sobre como elas foram usadas.
-
+  * :pylint: O Pylint é uma ferramenta de análise de código estática do Python que procura erros de programação, ajuda a impor um padrão de codificação, fareja cheiros de código e oferece sugestões simples de refatoração.
 Organização Dos Diretórios
 ------------------------------
 

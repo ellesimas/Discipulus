@@ -63,7 +63,7 @@ def rota_doc(filename):
        justificativa na ausência do roteamento do css que se encontra no caminho
        ../docs/build/html/_static
     '''
-@route('/<filename:re:.*\.py>')
+@route('/<filename:re:.*[.]py>')
 def py_rota(filename):
     """Roteia
     """
