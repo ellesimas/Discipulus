@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../../src'))
 #e a terceira linha teve o caminho de path alterado para o código fonte
 #do sistema:
 #sys.path.insert(0, os.path.abspath('<caminho/para/o/codigo/fonte'))
-
+sys.path.insert(0, os.path.abspath('../../src/mockbrython/'))
 
 # -- Project information -----------------------------------------------------
 
