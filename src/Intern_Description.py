@@ -3,7 +3,6 @@
 
 ..version::20.1.0
 
-
 .. Note::
   Este é um pequeno documento em fase de construção que buscar ser um log para processos importantes que ocorreram
   durante a construção deste documento.
@@ -70,12 +69,12 @@ Instalação E Uso Do Sphinx
 Operações Python
 ---------------------
   * :Format():
-  
+
  Bibliotecas adicionais Python
  -----------------------------
   * :mock: Unittest.mocké uma biblioteca para teste em Python. Ele permite que você substitua partes do seu sistema em teste por objetos simulados e faça afirmações sobre como elas foram usadas.
 
-Organização Dos Diretórios 
+Organização Dos Diretórios
 ------------------------------
 
   * :dev: Diretório principal de desenvolvimento;
@@ -84,27 +83,28 @@ Organização Dos Diretórios
   * :docs/source/conf.py: É onde estarão as principais diretrizes de organização do documento;
   * :docs/source/index.rst: Contém a raiz da árvore de índice ou toctree;
 
-Organização Dos Arquivos 
+Organização Dos Arquivos
 ------------------------------
   * :index:Geralmente é uma página principal
   * :html: Serve as informações antes compostas de python
-  * :index.html: 
-  
+  * :index.html:
+
 WEB
 -------
  *  :html| mimetype|: O MIME type é o mecanismo para dizer ao cliente a variedade de documentos transmitidos. Sintaxe - Tipo/subtipo
- 
-HTML 
+
+HTML
 ------
 * :index.html: Documento principal que servirá os documentos importados. Necessário fazer para cada nova sala?
 * :head: Instruções preliminares para antes de implementar o html
-* :body: 
+* :body: É o corpo de funcionamento do html a ser rodado.
 * :<script type="text/python">: Diz que a partir desta linha o que está escrito é python
+
 CSS
 ------
 * :viewport: Auxilia css a redimensionar a tela quando janela for maximizada ou minimizada
-  * :content="width=device-width, initial-scale=1": Repassa para o ccs a largura do dispositivo para poder ajustar o Layout 
-  
+  * :content="width=device-width, initial-scale=1": Repassa para o ccs a largura do dispositivo para poder ajustar o Layout
+
 BRYTHON
 ----------
 * :Brython: É o interpretador python escrito em javascript. É um compilador que permite rodar o python dentro do browser.

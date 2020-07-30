@@ -45,6 +45,19 @@ Módulo Delta
     :platform: Web
     :synopsis: Jogo da Memória
 
+Módulo Vitollino
+------------------------------------
+
+.. note::
+   Engenho de jogo so superpython
+   Importado no módulo anterior
+
+.. automodule:: vitollino.main
+    :members:
+    :undoc-members:
+    :platform: Web
+    :synopsis: Jogo da Memória
+
 **Documentação Adicional**
 ---------------------------
 
